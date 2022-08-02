@@ -1,0 +1,50 @@
+.root {
+    @apply relative text-base w-full transition-colors duration-150 border-[0.06rem] border-zgl-orange rounded-[1.25rem] h-10;
+}
+.root:focus {
+    outline: none;
+}
+.root:focus-visible:focus-within {
+    outline: none;
+}
+.input {
+    @apply bg-transparent px-[1.94rem] py-[0.69rem] h-10 appearance-none w-full transition duration-150 ease-in-out pr-10;
+}
+
+.input::placeholder {
+}
+
+.input:focus {
+    @apply outline-none shadow-none;
+}
+.input:focus-visible {
+    @apply outline-none shadow-none;
+}
+.iconContainer {
+    @apply absolute inset-y-0 left-[0.78rem] pr-3 flex items-center pointer-events-none;
+}
+
+.icon {
+    @apply h-[1.16rem] w-[1.16rem] opacity-80;
+}
+
+.icon:focus-visible {
+    @apply opacity-100;
+}
+.btn {
+    @apply absolute inset-y-0 right-0 flex items-center justify-center px-3 w-20
+     bg-zgl-orange text-white rounded-[1.25rem] transition duration-150 ease-in-out !important;
+}
+
+.closeContainer {
+    @apply absolute inset-y-0 right-[5.5rem] pr-3 flex items-center pointer-events-none;
+}
+.close {
+    @apply h-[1.16rem] w-[1.16rem] opacity-80;
+}
+
+@screen sm {
+    .input {
+        min-width: 300px;
+    }
+}

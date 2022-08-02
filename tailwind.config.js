@@ -16,6 +16,8 @@ module.exports = {
                 'accent-7': '#333',
                 success: '#0070f3',
                 cyan: '#79FFE1',
+                'zgl-orange': '#FF7F00',
+                transparent: 'transparent',
             },
             spacing: {
                 28: '7rem',
@@ -35,6 +37,17 @@ module.exports = {
             boxShadow: {
                 small: '0 5px 10px rgba(0, 0, 0, 0.12)',
                 medium: '0 8px 30px rgba(0, 0, 0, 0.12)',
+            },
+            fontFamily: {
+                mobileBase: [
+                    'PingFangSC-Regular',
+                    'PingFang SC',
+                    'PingFangSC',
+                    'PingFang-SC',
+                    'Helvetica',
+                    'Arial',
+                    'sans-serif',
+                ],
             },
         },
     },

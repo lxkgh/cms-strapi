@@ -1,25 +1,26 @@
 import Container from '@/components/container';
-import MoreStories from '@/components/more-stories';
-import HeroPost from '@/components/hero-post';
-import Intro from '@/components/intro';
-import Layout from '@/components/layout';
 // import { getAllPostsForHome } from '@/lib/api';
 import Head from 'next/head';
 import { CMS_NAME } from '@/lib/constants';
-import { getAllProducts, fetchAPI } from '@/lib/api';
+import { getAllProducts } from '@/lib/api';
+import React from 'react'
+import type {  InferGetStaticPropsType } from 'next';
+import SearchBar from '@/components/SearchBar';
 
-export default function Index({ allPruducts, preview }) {
+export default function Index({ allPruducts , news, banners, hotProducts, focusProduct }: InferGetStaticPropsType<typeof getStaticProps>) {
     // const heroPost = allPosts[0];
     // const morePosts = allPosts.slice(1);
     console.log(allPruducts, 'allPruducts');
+    console.log(news, banners, hotProducts, focusProduct, 'news');
     return (
         <>
-            <Layout preview={preview}>
+            {/* <Layout preview={preview}> */}
                 <Head>
-                    <title>Next.js Blog Example with {CMS_NAME}</title>
+                    <title>租葛亮免押租赁 {CMS_NAME}</title>
                 </Head>
                 <Container>
-                    <Intro />
+                    <h1>租葛亮免押租赁</h1>
+                    <SearchBar />
                     {/* {heroPost && (
                         <HeroPost
                             title={heroPost.title}
@@ -32,7 +33,7 @@ export default function Index({ allPruducts, preview }) {
                     )}
                     {morePosts.length > 0 && <MoreStories posts={morePosts} />} */}
                 </Container>
-            </Layout>
+            {/* </Layout> */}
         </>
     );
 }
