@@ -1,0 +1,10 @@
+.container {
+    @apply bg-white;
+}
+.mobile {
+    @apply h-screen w-screen max-w-xl mx-auto;
+}
+
+.normal {
+
+}

@@ -1,8 +1,17 @@
 import '@/styles/index.css';
 
-import type { AppProps } from 'next/app'
-import * as React from 'react';
+import React, { FC } from 'react';
+import type { AppProps } from 'next/app';
 
-export default function MyApp({ Component, pageProps } : AppProps) {
-    return <Component {...pageProps} />;
+const Noop: FC<{ children: any }> = ({ children }) => <>{children}</>;
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+    const Layout = (Component as any).Layout || Noop;
+    return (
+        <>
+            <Layout pageProps={pageProps}>
+                <Component {...pageProps} />
+            </Layout>
+        </>
+    );
 }

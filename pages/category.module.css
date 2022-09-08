@@ -1,0 +1,22 @@
+.container {
+    @apply h-screen w-screen flex flex-col;
+}
+.header {
+    @apply bg-white;
+}
+
+.header h1 {
+   @apply text-b3 text-[1.13rem] leading-[1.56rem] font-[500] font-mobileBase text-center h-11 py-[0.59rem];
+}
+.searchBar {
+    @apply h-[3.75rem] px-3 py-[0.63rem];
+}
+.content {
+    @apply bg-f7 pt-[0.59rem] flex w-screen;
+}
+.sideBar {
+    @apply w-[5.25rem] flex-shrink-0;
+}
+.list {
+    @apply flex-1;
+}

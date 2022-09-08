@@ -1,0 +1,16 @@
+.filterContainer {
+    @apply flex bg-white text-g9 justify-between items-center px-4 py-[0.66rem] text-[1rem]
+    leading-[1.41rem] font-mobileBase max-w-lg mx-auto font-[400];
+}
+.filterItem {
+    @apply flex items-center justify-center;
+}
+.arrowIcon {
+    @apply w-[0.37rem] h-[0.37rem];
+}
+.active {
+    @apply text-zgl-orange;
+}
+.filterIconContainer {
+    @apply ml-[0.39rem];
+}

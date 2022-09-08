@@ -1,0 +1,19 @@
+.rentBtn {
+    @apply h-[2.75rem] w-[21.56rem] mt-5;
+    --border-radius: 0.5rem;
+    --background-color: #FF7F00;
+    --text-color: #fff;
+}
+.contactContainer {
+    @apply h-[4.75rem] bg-white flex items-center justify-center;
+    box-shadow: inset 0rem 0.03rem 0rem 0rem #DDDDDD;
+}
+.phoneInput {
+    @apply bg-f7 h-[2.75rem] w-[21.44rem] rounded-[0.5rem] mt-5 mx-auto;
+}
+.info1 {
+    @apply mt-5 text-b3 text-[1rem] leading-4 font-[500];
+}
+.info2 {
+    @apply mt-3 text-[0.81rem] leading-5;
+}

@@ -17,7 +17,16 @@ module.exports = {
                 success: '#0070f3',
                 cyan: '#79FFE1',
                 'zgl-orange': '#FF7F00',
+                'zgl-orange-content': '#FFF9F0',
                 transparent: 'transparent',
+                f7: '#F7F7F7',
+                b3: '#333333',
+                be6: '#E6E6E6',
+                be: '#EEEEEE',
+                g9: '#999999',
+                'zgl-red-new': '#F60A0A',
+                'zgl-red-content': '#FFF2F2',
+                'zgl-red-price': '#FF3B30',
             },
             spacing: {
                 28: '7rem',
@@ -51,5 +60,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/line-clamp')],
 };

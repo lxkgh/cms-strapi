@@ -5,3 +5,12 @@
 .grayscale {
   filter: grayscale(1);
 }
+.adm-side-bar-item-active {
+  @apply text-zgl-orange !important;
+}
+.adm-side-bar-item-highlight {
+  @apply bg-zgl-orange !important;
+}
+body {
+  @apply h-screen w-screen;
+}

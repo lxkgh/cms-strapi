@@ -1,0 +1,105 @@
+.mainContainer {
+    @apply h-auto overflow-y-scroll;
+    background: linear-gradient(136deg, #F7FFFE 0%, #FFF4ED 21%, #F5F9FB 65%, #FBF8FF 74%, #FFF7F7 100%);
+}
+.recommendContainer {
+    @apply h-[12rem] my-4 mx-3 rounded-xl bg-white;
+}
+
+.recommendHeader {
+    @apply h-10 rounded-t-xl p-3;
+}
+.recommendTitle {
+    @apply text-[0.94rem] leading-[1.31rem] text-[#333333] mr-3 font-[500];
+}
+.recommendInfo {
+    @apply text-[0.81rem] leading-[1.16rem] text-g9;
+}
+.recommendItems {
+    @apply flex px-3 pb-3;
+}
+.recommendItem {
+    @apply flex flex-col w-[4.38rem] mr-4;
+}
+.recommendItemImg {
+    @apply w-[4.38rem] h-[4.38rem] mb-2 relative;
+}
+.recommendItemName {
+    @apply text-[0.75rem] leading-4 text-black mb-1 text-center;
+}
+.recommendItemPrice {
+    @apply text-[#FD5454] text-[0.69rem] leading-[1.31rem] text-center;
+}
+.priceEm {
+    @apply text-[0.88rem] font-[400];
+}
+.scenes {
+    @apply flex w-[13.33rem] h-[10rem] flex-wrap justify-between;
+}
+.sceneItem {
+    @apply h-[4.75rem] w-[4.13rem] relative flex-shrink-0
+}
+.sceneRecommendItem {
+    @apply w-[7.94rem] h-[10rem] mr-[0.53rem] relative;
+}
+.scenesContainer {
+    @apply mx-3 flex;
+}
+.sceneTitle {
+    @apply text-white text-[0.75rem] leading-[1.03rem] absolute mx-auto bottom-0 text-center left-0 right-0;
+}
+.registerContainer {
+    @apply my-4 mx-3 h-[4rem] relative;
+}
+.addsSwiperContainer {
+    @apply mx-3 h-[14rem];
+}
+.roundContainer {
+    @apply mx-3 rounded-xl bg-white;
+}
+.articlesContainer {
+    @apply px-[0.75rem];
+}
+.pinkGrid {
+    background: linear-gradient(180deg, #FEEDFF 0%, #FFFFFF 100%);
+}
+.blueGrid {
+    background: linear-gradient(180deg, #EEF7FF 0%, #FFFFFF 100%);
+}
+.mainArticleItem {
+    @apply h-[11.25rem] w-[20.44rem] relative rounded-t-[0.5rem] overflow-hidden pt-[0.75rem];
+}
+
+.articleItem {
+    @apply h-[5.38rem] relative flex justify-between items-center border-b-[1px]
+}
+.articleItemTitles {
+    
+}
+.articleItemTitles h4 {
+    @apply text-left text-b3 text-[0.94rem] leading-[1.31rem] font-[500];
+}
+.articleItemSubtitle {
+    @apply text-left text-g9 text-[0.81rem] leading-[1.16rem] font-[400] pt-1;
+}
+.articleItemImg {
+    @apply relative rounded-[0.5rem] overflow-hidden w-[3.88rem] h-[3.88rem];
+}
+.homeFooterContainer {
+    @apply mx-[2.09rem] mt-5;
+}
+.homeFooterContainer h4 {
+    @apply text-[0.94rem] text-b3 font-[500] leading-[1.31rem] text-center mb-4;
+}
+.companyIconsContainer {
+    @apply flex justify-between mb-3;
+}
+.companyIconContainer {
+    @apply h-[3.13rem] w-[3.13rem] relative;
+}
+.companyName {
+    @apply text-center text-[0.75rem] text-b3 leading-[1.03rem] mt-2;
+}
+.swiperContainer {
+    @apply h-[7.5rem] mx-3 rounded-[0.94rem] bg-[#d8d8d8] overflow-hidden mt-4;
+}

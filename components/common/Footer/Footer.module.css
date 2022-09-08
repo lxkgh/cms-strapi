@@ -1,0 +1,18 @@
+.footRoot {
+    @apply w-screen h-[3.13rem] z-10 fixed bg-white bottom-0;
+}
+.footContainer {
+    @apply flex justify-between items-center px-10 py-[0.38rem] h-[3.13rem];
+}
+.tabBarIcon {
+    @apply w-[1.3rem] h-[1.3rem];
+}
+.tabBarTitle {
+    @apply text-[0.69rem] leading-[0.94rem] text-b3 font-mobileBase font-[400] mt-[0.16rem];
+}
+.tabBarItem {
+    @apply flex flex-col items-center justify-center;
+}
+.active {
+    @apply text-zgl-orange;
+}

@@ -37,7 +37,10 @@
             ],
             "@/components/*": [
                 "components/*"
-            ]
+            ],
+            "@/domain/*": [
+                "domain/*"
+            ],
         }
     },
     "include": [

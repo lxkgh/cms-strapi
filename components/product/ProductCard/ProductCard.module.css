@@ -1,0 +1,39 @@
+.cardContainer {
+    @apply flex  bg-white px-3 py-[0.87rem];
+}
+.mainPicContainer {
+    @apply w-[4.13rem] mr-3 flex-shrink-0;
+}
+.mainPic {
+    @apply w-[4.13rem] h-[4.13rem] object-cover border-[0.5px] border-solid border-be6 rounded-[0.25rem] !important;
+}
+.cardContent {
+    @apply flex flex-col text-left flex-shrink;
+}
+.tagIcon {
+    @apply border-solid border-[0.5px] rounded-[0.44rem] px-1 text-[0.56rem] text-center font-mobileBase leading-[0.78rem] h-[0.88rem] inline-block;
+}
+.new {
+    @apply bg-zgl-red-content text-zgl-red-new border-zgl-red-new;
+}
+.old {
+    @apply bg-zgl-orange-content text-zgl-orange border-zgl-orange;
+}
+.goodsTitle {
+    @apply text-b3 text-left text-[0.94rem] font-[500] text-ellipsis h-[2.62rem] overflow-hidden leading-[1.31rem] font-mobileBase line-clamp-2;
+}
+.goodsDescTag {
+    @apply bg-zgl-orange-content text-zgl-orange text-center text-base leading-[1.03rem] text-[0.75rem] font-[400] px-3 py-[0.06rem] mr-[0.38rem] font-mobileBase;
+}
+.goodsDescContainer {
+    @apply flex items-center mt-2 h-[1.13rem];
+}
+.priceContainer {
+    @apply text-left font-mobileBase text-zgl-red-price text-base font-[500] text-[0.69rem] leading-[0.94rem] h-7 mt-[0.41rem] relative;
+}
+.priceWrapper {
+    @apply absolute bottom-0 left-0;
+}
+.priceEm {
+    @apply text-[1.25rem];
+}
